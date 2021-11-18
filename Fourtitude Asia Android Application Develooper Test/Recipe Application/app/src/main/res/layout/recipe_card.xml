@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    >
+
+    <ImageView
+        android:id="@+id/RecipePicture"
+        android:layout_width="206dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RecipeName"
+        style="?attr/textAppearanceHeadline6"
+        android:layout_width="193dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Putu Mayam"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/RecipePicture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RecipeDescription"
+        style="?attr/textAppearanceHeadline6"
+        android:layout_width="186dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Putu Mayam is a popular Malaysian breakfast. Learn how To make/prepare Putu Mayam by following this easy recipe."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:layout_constraintStart_toEndOf="@+id/RecipePicture"
+        app:layout_constraintTop_toBottomOf="@+id/RecipeName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

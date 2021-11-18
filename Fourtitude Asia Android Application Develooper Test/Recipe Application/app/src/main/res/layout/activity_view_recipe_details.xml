@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewRecipeDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/RecipeDetailsPicture"
+                android:layout_width="411dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:id="@+id/RecipeDetailsName"
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Putu Mayam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <TextView
+                android:id="@+id/RecipeDetailsDescription"
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:text="Putu Mayam is a popular Malaysian breakfast. Learn how To make/prepare Putu Mayam by following this easy recipe."
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="236dp" />
+
+            <TextView
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Ingredients"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+
+
+            <TextView
+                android:id="@+id/RecipeDetailsIngredients"
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="408dp" />
+            <TextView
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Steps"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <TextView
+                android:id="@+id/RecipeDetailsStep"
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:text="Putu Mayam is a popular Malaysian breakfast. Learn how To make/prepare Putu Mayam by following this easy recipe."
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="566dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
